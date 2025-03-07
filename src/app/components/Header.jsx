@@ -2,7 +2,7 @@ import Avatar from "./Avatar";
 
 export default function Header() {
     return (
-      <header className=" text-blue-500 p-1 shadow-2xl border-dotted flex justify-between"
+      <header className=" border-gray-500/30 border-b-[1px] p-1 shadow-2xl  flex justify-between  "
       style={{
         backgroundColor: "#ffffff",
         backgroundImage:
