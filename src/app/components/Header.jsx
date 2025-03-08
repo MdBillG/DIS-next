@@ -1,4 +1,5 @@
 import Avatar from "./Avatar";
+import Welcome from "./Welcome";
 
 export default function Header() {
     return (
@@ -10,7 +11,7 @@ export default function Header() {
         backgroundSize: "repeat",
         backgroundSize: "6px 6px",
       }}>
-        <h1 className="text-lg font-bold"></h1>
+        <Welcome/>
         <Avatar/>
       </header>
     );

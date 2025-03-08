@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={montserrat.className}>
-      <div className="flex h-screen overflow-hidden" >
+      <div className="flex h-screen overflow-hidden text-[#333333] " >
       <Sidebar />
       <div className="flex flex-col flex-1 overflow-hidden">
         <Header />
