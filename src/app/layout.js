@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <Sidebar />
       <div className="flex flex-col flex-1 overflow-hidden">
         <Header />
-        <main className="p-4 overflow-y-auto bg-[#f5f5f5]
+        <main className="p-4 overflow-y-auto bg-[#f5f5f5] flex-grow min-h-screen
         "
         style={{
           backgroundColor: "#f5f5f5",

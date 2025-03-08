@@ -2,11 +2,18 @@
 import { LogOut, Mail, User, UserPen } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter ,usePathname} from "next/navigation";
 
 const Avatar =()=>{
     const [profileDetails,setProfileDetails] = useState(false)
+    const router = useRouter();
         const nameStaff = "John Doe";
         const staffEmail= "JohnDoe@gmail.com"
+
+        const handleEditprofile = () =>{
+            router.push('/profile')
+            setProfileDetails(!profileDetails)
+        }
 return (
     <div className="flex items-center gap-2">
         <div>
@@ -34,7 +41,7 @@ height={50}
                 <div className="flex flex-col mx-5 gap-2 mt-4 cursor-pointer">
                     <div className="flex gap-2 text-[#333333]">
                     <UserPen size={16} strokeWidth={1.75} />
-                    <h1>Edit Profile</h1>
+                    <h1 onClick={()=>handleEditprofile()}>Edit Profile</h1>
                     </div>
                     <div className="flex  gap-2 ">
                     <LogOut size={16} strokeWidth={1.75}/>
