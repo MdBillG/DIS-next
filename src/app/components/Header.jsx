@@ -3,7 +3,7 @@ import Welcome from "./Welcome";
 
 export default function Header() {
     return (
-      <header className=" border-gray-500/30 border-b-[1px] p-1 shadow-2xl  flex justify-between  "
+      <header className=" border-gray-400/30 border-b-[1px] p-1 shadow-2xl  flex justify-between  "
       style={{
         backgroundColor: "#ffffff",
         backgroundImage:

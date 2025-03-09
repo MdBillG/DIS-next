@@ -40,7 +40,7 @@ export default function Sidebar() {
 router.push(href)
   }
   return (
-    <aside className="text-white w-64 h-screen p-4 shadow-2xl shadow-[#f5f5f5] border-r-[0.063rem] border-gray-500/30"
+    <aside className="text-white w-64 h-screen p-4 shadow-2xl shadow-[#f5f5f5] border-r-[0.063rem] border-gray-400/30"
     style={{
       backgroundColor: "#ffffff",
       backgroundImage:
