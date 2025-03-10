@@ -35,10 +35,12 @@ let n =9
 //     console.log(row)
 // }
 
-for (let i=1;i<=n;i++){
-    let row =""
-    for(let j=1;j<=i;j++){
-        row = "*"
-    }
-    console.log(row)
+
+//line patterns
+let stars =""
+
+for(let i=1 ; i<=n ;i++){
+stars += "*"
 }
+
+console.log(stars)  
